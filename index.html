@@ -1,0 +1,647 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div class="container-fluid bg-dark">
+        <div class="row">
+            <!-- Just an image -->
+            <nav class="navbar navbar-light col">
+                <a class="navbar-brand" href="index.html">
+                    <img src="https://seeklogo.com/images/B/bmw-logo-248C3D90E6-seeklogo.com.png" width="25"
+                        height="25">
+                </a>
+            </nav>
+            <div class="col-lg-2 d-none d-lg-block text-light">
+                <p> tel.099999999</p>
+            </div>
+            <div class="col-lg-2 d-none d-lg-block text-light">
+                <p> Welcome to our store</p>
+            </div>
+            <select class="custom-select col-5 col-lg-2" id="validationCustom04" required>
+                <option selected disabled value="">Lang</option>
+                <option>AM</option>
+                <option>US</option>
+                <option>RU</option>
+            </select>
+            <select class="custom-select col-5 col-lg-2" id="validationCustom04" required>
+                <option selected disabled value="">Pay</option>
+                <option>$</option>
+                <option>€</option>
+                <option>₤</option>
+            </select>
+
+            <button type="button" class="btn btn-primary d-none d-lg-block col-lg-2 ">
+                Wishlist <span class="badge badge-danger">3</span>
+                <span class="sr-only">unread messages</span>
+            </button>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand col-6 col-lg-6" href="index.html">BMW Store</a>
+            <form class="form-inline">
+                <input class="form-control d-none d-lg-block mr-lg-3" type="search" placeholder="Search"
+                    aria-label="Search">
+                <button class="btn btn-outline-success d-none d-lg-block my-2 my-sm-1" type="submit">Search</button>
+            </form>
+            <div class="dropdown">
+                <button class="btn btn-secondary mr-auto dropdown-toggle" type="button" id="dropdownMenu2"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    My Account
+                </button>
+                <div class="dropdown-menu col-lg-2" aria-labelledby="dropdownMenu2">
+                    <button class="dropdown-item" type="button" data-toggle="modal"
+                        data-target="#loginExampleModal">Login</button>
+                    <button class="dropdown-item" type="button" data-toggle="modal"
+                        data-target="#registerExampleModal">Register</button>
+                        <a class="dropdown-item" href="orders.html">My Orders</a>
+                    <a class="dropdown-item" href="myacount.html">Account Settings</a>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown col-lg-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                BMW
+                            </a>
+                            <div class="dropdown-menu col" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="subcat.html">BMW 3</a>
+                                <a class="dropdown-item" href="subcat.html">BMW 5</a>
+                                <a class="dropdown-item" href="subcat.html">BMW 7</a>
+                                <a class="dropdown-item" href="subcat.html">BMW 8</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown col-lg-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                X Models
+                            </a>
+                            <div class="dropdown-menu col" aria-labelledby="navbarDropdown1">
+                                <a class="dropdown-item" href="subcat.html">BMW X1</a>
+                                <a class="dropdown-item" href="subcat.html">BMW X3</a>
+                                <a class="dropdown-item" href="subcat.html">BMW X5</a>
+                                <a class="dropdown-item" href="subcat.html">BMW X6</a>
+                                <a class="dropdown-item" href="subcat.html">BMW X7</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown col-lg-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                GT Models
+                            </a>
+                            <div class="dropdown-menu col" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="subcat.html">3 Series Gran Turismo</a>
+                                <a class="dropdown-item" href="subcat.html">6 Series Gran Turismo</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown col-lg-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Z Models
+                            </a>
+                            <div class="dropdown-menu col" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="subcat.html">Z4</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown col-lg-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                M Models
+                            </a>
+                            <div class="dropdown-menu col" aria-labelledby="navbarDropdown4">
+                                <a class="dropdown-item" href="subcat.html">M2</a>
+                                <a class="dropdown-item" href="subcat.html">M5</a>
+                                <a class="dropdown-item" href="subcat.html">M760Li</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown col-lg-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                SportCars
+                            </a>
+                            <div class="dropdown-menu col" aria-labelledby="navbarDropdown4">
+                                <a class="dropdown-item" href="subcat.html">i8</a>
+                                <a class="dropdown-item" href="subcat.html">Z4</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </nav>
+
+        <div class="alert alert-warning alert-dismissible fade show text-center" role="alert">
+            <strong>This week is a holiday!</strong> , we will not work.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner d-none d-lg-block">
+                <div class="carousel-item active bg-dark">
+                    <div class="row justify-content-center p-3">
+                        <div class="col-3">
+                            <img src="https://www.cstatic-images.com/car-pictures/xl/cac00bms191c0101.png"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col-3">
+                            <div class="carousel-caption d-none d-lg-block">
+                                <h5>BMW-X5</h5>
+                                <p class="h6">Quality cars with us.</p>
+                                <a href="cart.html" class="btn btn-primary">Add to Card</a>
+                                <a href="apranq.html" class="btn btn-success">Click To View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item  bg-dark">
+                    <div class="row justify-content-center p-3">
+                        <div class="col-3">
+                            <img src="https://postmediadriving.files.wordpress.com/2020/03/chrome-image-409950.png?w=800&h=520&crop=1"
+                                class="d-block w-100 " alt="...">
+                        </div>
+                        <div class="col-3">
+                            <div class="carousel-caption d-none d-lg-block">
+                                <h5>BMW-X7</h5>
+                                <p class="h6">Quality Cars with us.</p>
+                                <a href="cart.html" class="btn btn-primary">Add to Card</a>
+                                <a href="apranq.html" class="btn btn-success">Click To View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item  bg-dark">
+                    <div class="row justify-content-center p-3">
+                        <div class="col-3">
+                            <img src="https://carbattery.com.my/media/battery/car/bmw/5-series-sedan-f10.png"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col-3">
+                            <div class="carousel-caption d-none d-lg-block">
+                                <h5>BMW-5</h5>
+                                <p class="h6">Quality Cars with us.</p>
+                                <a href="cart.html" class="btn btn-primary">Add to Card</a>
+                                <a href="apranq.html" class="btn btn-success">Click To View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="row justify-content-center pb-4 bg-dark">
+            <h1 class="col-12 display-4 text-center mb-3 text-uppercase">Day Discounts</h1>
+            <div class="card col-12 col-sm-6 col-m-2 col-lg-3 text-center shadow-lg p-3 mb-5 bg-dark rounded"
+                style="width: 18rem;">
+                <img src="https://postmediadriving.files.wordpress.com/2020/03/chrome-image-409950.png?w=800&h=520&crop=1"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-white">BMW-X7</h5>
+                    <h3 class="" style="color: rgb(255, 53, 53);">$ 199999</h3>
+                    <h4 class="" style="color: rgb(53, 255, 97); text-decoration: line-through;">$ 64999</h4>
+                    <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+                        adipisci
+                        repudiandae eveniet recusandae.</p>
+                    <a href="cart.html" class="btn btn-outline-primary">Add to Card</a>
+                </div>
+            </div>
+            <div class="card col-12 col-sm-6 col-m-2 col-lg-3 text-center shadow-lg p-3 mb-5 bg-dark rounded"
+                style="width: 18rem;">
+                <img style="margin-top:12.5px;"
+                    src="https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_default/v1/editorial/vhs/BMW-M5.png"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-white">BMW-M5</h5>
+                    <h3 class="" style="color: rgb(255, 53, 53);">$ 229999</h3>
+                    <h4 class="" style="color: rgb(53, 255, 97); text-decoration: line-through;">$ 129999</h4>
+                    <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+                        adipisci
+                        repudiandae eveniet recusandae.</p>
+                    <a href="cart.html" class="btn btn-outline-primary">Add to Card</a>
+                </div>
+            </div>
+            <div class="card col-12 col-sm-6 col-m-2 col-lg-3 text-center shadow-lg p-3 mb-5 bg-dark rounded"
+                style="width: 18rem;">
+                <img style="margin-top:12.5px;"
+                    src="https://carbattery.com.my/media/battery/car/bmw/5-series-sedan-f10.png" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-white">BMW-5</h5>
+                    <h3 class="" style="color: rgb(255, 53, 53);">$499999</h3>
+                    <h4 class="" style="color: rgb(53, 255, 97); text-decoration: line-through;">$ 299999</h4>
+                    <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+                        adipisci
+                        repudiandae eveniet recusandae.</p>
+                    <a href="cart.html" class="btn btn-outline-primary">Add to Card</a>
+                </div>
+            </div>
+            <div class="card col-12 col-sm-6 col-m-2 col-lg-3 text-center shadow-lg p-3 mb-5 bg-dark rounded"
+                style="width: 18rem;">
+                <img style="margin-top:12.5px;"
+                    src="https://www.cstatic-images.com/car-pictures/xl/cac00bms191c0101.png" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-white">BMW-X5</h5>
+                    <h3 class="" style="color: rgb(255, 53, 53);">$ 9999</h3>
+                    <h4 class="" style="color: rgb(53, 255, 97); text-decoration: line-through;">$ 7999</h4>
+                    <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+                        adipisci
+                        repudiandae eveniet recusandae.</p>
+                    <a href="cart.html" class="btn btn-outline-primary">Add to Card</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center pb-4 bg-dark">
+            <h1 class="col-12 display-4 text-center mb-3 text-uppercase">Categories</h1>
+            <div class="card col-12 col-lg-2 text-center shadow-lg p-3 mr-lg-1 mb-5 bg-dark rounded"
+                style="width: 18rem;">
+                <img src="https://postmediadriving.files.wordpress.com/2020/03/chrome-image-409950.png?w=800&h=520&crop=1"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-white">BMW-X7</h5>
+                    <a href="#" class="btn btn-outline-primary">Category</a>
+                </div>
+            </div>
+            <div class="card col-12 col-lg-2 text-center shadow-lg p-3 mr-lg-1 mb-5 bg-dark rounded"
+                style="width: 18rem;">
+                <img style="margin-top:12.5px;"
+                    src="https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_default/v1/editorial/vhs/BMW-M5.png"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-white">BMW-M5</h5>
+                    <a href="#" class="btn btn-outline-primary">Category</a>
+                </div>
+            </div>
+            <div class="card col-12 col-lg-2 text-center shadow-lg p-3 mr-lg-1 mb-5 bg-dark rounded"
+                style="width: 18rem;">
+                <img style="margin-top:12.5px;"
+                    src="https://carbattery.com.my/media/battery/car/bmw/5-series-sedan-f10.png" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-white">BMW-5</h5>
+                    <a href="#" class="btn btn-outline-primary">Category</a>
+                </div>
+            </div>
+            <div class="card col-12 col-lg-2 text-center shadow-lg p-3 mr-lg-1 mb-5 bg-dark rounded"
+                style="width: 18rem;">
+                <img style="margin-top:12.5px;"
+                    src="https://www.cstatic-images.com/car-pictures/xl/cac00bms191c0101.png" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-white">BMW-X5</h5>
+                    <a href="#" class="btn btn-outline-primary">Category</a>
+                </div>
+            </div>
+            <div class="card col-12 col-lg-2 text-center shadow-lg p-3 mr-lg-1 mb-5 bg-dark rounded"
+                style="width: 18rem;">
+                <img style="margin-top:12.5px;"
+                    src="https://www.cstatic-images.com/car-pictures/xl/USC90BMC682A021001.png" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-white">BMW-i8</h5>
+                    <a href="#" class="btn btn-outline-primary">Category</a>
+                </div>
+            </div>
+            <div class="card col-12 col-lg-2 text-center shadow-lg p-3 mr-lg-1 mb-5 bg-dark rounded"
+                style="width: 18rem;">
+                <img src="https://postmediadriving.files.wordpress.com/2020/03/chrome-image-409950.png?w=800&h=520&crop=1"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-white">BMW-X7</h5>
+                    <a href="#" class="btn btn-outline-primary">Category</a>
+                </div>
+            </div>
+            <div class="card col-12 col-lg-2 text-center shadow-lg p-3 mr-lg-1 mb-5 bg-dark rounded"
+                style="width: 18rem;">
+                <img style="margin-top:12.5px;"
+                    src="https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_default/v1/editorial/vhs/BMW-M5.png"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-white">BMW-M5</h5>
+                    <a href="#" class="btn btn-outline-primary">Category</a>
+                </div>
+            </div>
+            <div class="card col-12 col-lg-2 text-center shadow-lg p-3 mr-lg-1 mb-5 bg-dark rounded"
+                style="width: 18rem;">
+                <img style="margin-top:12.5px;"
+                    src="https://carbattery.com.my/media/battery/car/bmw/5-series-sedan-f10.png" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-white">BMW-5</h5>
+                    <a href="#" class="btn btn-outline-primary">Category</a>
+                </div>
+            </div>
+            <div class="card col-12 col-lg-2 text-center shadow-lg p-3 mr-lg-1 mb-5 bg-dark rounded"
+                style="width: 18rem;">
+                <img style="margin-top:12.5px;"
+                    src="https://www.cstatic-images.com/car-pictures/xl/cac00bms191c0101.png" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-white">BMW-X5</h5>
+                    <a href="#" class="btn btn-outline-primary">Category</a>
+                </div>
+            </div>
+            <div class="card col-12 col-lg-2 text-center shadow-lg p-3 mr-lg-1 mb-5 bg-dark rounded"
+                style="width: 18rem;">
+                <img style="margin-top:12.5px;"
+                    src="https://www.cstatic-images.com/car-pictures/xl/USC90BMC682A021001.png" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-white">BMW-i8</h5>
+                    <a href="#" class="btn btn-outline-primary">Category</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center pb-4 bg-dark">
+            <h1 class="col-12 display-4 text-center mb-3 text-uppercase">New Arrivals</h1>
+            <div class="card col-12 col-lg-2 text-center shadow-lg p-3 mb-5 bg-dark rounded" style="width: 18rem;">
+                <img src="https://postmediadriving.files.wordpress.com/2020/03/chrome-image-409950.png?w=800&h=520&crop=1"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-white">BMW-X7</h5>
+                    <h3 class="" style="color: rgb(255, 53, 53);">$ 199999</h3>
+                    <h4 class="" style="color: rgb(53, 255, 97); text-decoration: line-through;">$ 64999</h4>
+                    <a href="cart.html" class="btn btn-outline-primary">Add to Card</a>
+                </div>
+            </div>
+            <div class="card col-12 col-lg-2 text-center shadow-lg p-3 mb-5 bg-dark rounded" style="width: 18rem;">
+                <img style="margin-top:12.5px;"
+                    src="https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_default/v1/editorial/vhs/BMW-M5.png"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-white">BMW-M5</h5>
+                    <h3 class="" style="color: rgb(255, 53, 53);">$ 229999</h3>
+                    <h4 class="" style="color: rgb(53, 255, 97); text-decoration: line-through;">$ 129999</h4>
+                    <a href="cart.html" class="btn btn-outline-primary">Add to Card</a>
+                </div>
+            </div>
+            <div class="card col-12 col-lg-2 text-center shadow-lg p-3 mb-5 bg-dark rounded" style="width: 18rem;">
+                <img style="margin-top:12.5px;"
+                    src="https://carbattery.com.my/media/battery/car/bmw/5-series-sedan-f10.png" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-white">BMW-5</h5>
+                    <h3 class="" style="color: rgb(255, 53, 53);">$499999</h3>
+                    <h4 class="" style="color: rgb(53, 255, 97); text-decoration: line-through;">$ 299999</h4>
+                    <a href="cart.html" class="btn btn-outline-primary">Add to Card</a>
+                </div>
+            </div>
+            <div class="card col-12 col-lg-2 text-center shadow-lg p-3 mb-5 bg-dark rounded" style="width: 18rem;">
+                <img style="margin-top:12.5px;"
+                    src="https://www.cstatic-images.com/car-pictures/xl/cac00bms191c0101.png" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-white">BMW-X5</h5>
+                    <h3 class="" style="color: rgb(255, 53, 53);">$ 9999</h3>
+                    <h4 class="" style="color: rgb(53, 255, 97); text-decoration: line-through;">$ 7999</h4>
+                    <a href="cart.html" class="btn btn-outline-primary">Add to Card</a>
+                </div>
+            </div>
+            <div class="card col-12 col-lg-2 text-center shadow-lg p-3 mb-5 bg-dark rounded" style="width: 18rem;">
+                <img style="margin-top:12.5px;"
+                    src="https://www.cstatic-images.com/car-pictures/xl/USC90BMC682A021001.png" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-white">BMW-i8</h5>
+                    <h3 class="" style="color: rgb(255, 53, 53);">$ 9999</h3>
+                    <h4 class="" style="color: rgb(53, 255, 97); text-decoration: line-through;">$ 7999</h4>
+                    <a href="cart.html" class="btn btn-outline-primary">Add to Card</a>
+                </div>
+            </div>
+            <div class="card col-12 col-lg-2 text-center shadow-lg p-3 mb-5 bg-dark rounded" style="width: 18rem;">
+                <img style="margin-top:12.5px;"
+                    src="https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_cg_hero_low/v1/editorial/vhs/BMW-7-Series.png"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-white">BMW-i7</h5>
+                    <h3 class="" style="color: rgb(255, 53, 53);">$ 9999</h3>
+                    <h4 class="" style="color: rgb(53, 255, 97); text-decoration: line-through;">$ 7999</h4>
+                    <a href="cart.html" class="btn btn-outline-primary">Add to Card</a>
+                </div>
+            </div>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </nav>
+        </div>
+        <footer>
+            <div class="w-100">
+                <div class="d-flex justify-content-center flex-lg-row  flex-column bd-highligh">
+                    <a class="text-center flex-fill py-3 px-lg-5 border bg-light text-uppercase font-weight-bold text-secondary text-decoration-none"
+                        href="#">contact us</a>
+                    <a class="text-center flex-fill py-3 px-lg-5 border bg-light text-uppercase font-weight-bold text-secondary text-decoration-none"
+                        href="#">live Chat</a>
+                    <a class="text-center flex-fill py-3 px-lg-5 border bg-light text-uppercase font-weight-bold text-secondary text-decoration-none"
+                        href="#">shipping</a>
+                    <a class="text-center flex-fill py-3 px-lg-5 border bg-light text-uppercase font-weight-bold text-secondary text-decoration-none"
+                        href="#">terms & conditions</a>
+                </div>
+    
+    
+                <div class="flex-row d-lg-flex d-none">
+                    <div class="flex-fill py-3 px-5 border bg-light  flex-column bd-highlight">
+                        <a class="text-left text-uppercase font-weight-bold text-secondary text-decoration-none"
+                            href="#">Link Group
+                            1</a>
+                        <a class="d-lg-flex d-none text-left text-secondary text-decoration-none" href="#">Link 1</a>
+                        <a class="d-lg-flex d-none text-left text-secondary text-decoration-none" href="#">Link 2</a>
+                        <a class="d-lg-flex d-none text-left text-secondary text-decoration-none" href="#">Link 3</a>
+                    </div>
+                    <div class="flex-fill py-3 px-5 border bg-light d-flex flex-column bd-highlight">
+                        <a class="d-lg-flex d-none text-left text-uppercase font-weight-bold text-secondary text-decoration-none"
+                            href="#">Link Group 2</a>
+                        <a class="d-lg-flex d-none text-left text-secondary text-decoration-none" href="#">Link 1</a>
+                        <a class="d-lg-flex d-none text-left text-secondary text-decoration-none" href="#">Link 2</a>
+                        <a class="d-lg-flex d-none text-left text-secondary text-decoration-none" href="#">Link 3</a>
+                    </div>
+                    <div class="flex-fill py-3 px-5 border bg-light d-flex flex-column bd-highlight">
+                        <a class="d-lg-flex d-none text-left text-uppercase font-weight-bold text-secondary text-decoration-none"
+                            href="#">Link Group 3</a>
+                        <a class="d-lg-flex d-none text-left text-secondary text-decoration-none" href="#">Link 1</a>
+                        <a class="d-lg-flex d-none text-left text-secondary text-decoration-none" href="#">Link 2</a>
+                        <a class="d-lg-flex d-none text-left text-secondary text-decoration-none" href="#">Link 3</a>
+                    </div>
+                    <div class="flex-fill py-3 px-5 border bg-light d-flex flex-column bd-highlight">
+                        <a class="d-lg-flex d-none text-left text-uppercase font-weight-bold text-secondary text-decoration-none"
+                            href="#">Link Group 4</a>
+                        <a class="d-lg-flex d-none text-left text-secondary text-decoration-none" href="#">Link 1</a>
+                        <a class="d-lg-flex d-none text-left text-secondary text-decoration-none" href="#">Link 2</a>
+                        <a class="d-lg-flex d-none text-left text-secondary text-decoration-none" href="#">Link 3</a>
+                    </div>
+                    <div class="flex-fill py-3 px-5 border bg-light d-flex flex-column bd-highlight">
+                        <a class="d-lg-flex d-none text-left text-uppercase font-weight-bold text-secondary text-decoration-none"
+                            href="#">Link Group 5</a>
+                        <a class="d-lg-flex d-none text-left text-secondary text-decoration-none" href="#">Link 1</a>
+                        <a class="d-lg-flex d-none text-left text-secondary text-decoration-none" href="#">Link 2</a>
+                        <a class="d-lg-flex d-none text-left text-secondary text-decoration-none" href="#">Link 3</a>
+                    </div>
+                </div>
+                <div class="row">
+    
+                    <div class="col d-flex " style="background-color: black">
+                        <div class=" d-inline-block align-self-center text-white" style="background-color: black">Find Us On
+                        </div>
+                        <div class="row col-8">
+                            <nav class="navbar navbar-light navbar-expand-lg" style="background-color: black">
+                                <a href="https://www.instagram.com/" class="badge badge-light font-weight-normal">
+                                    <img src="https://image.flaticon.com/icons/svg/1384/1384063.svg " width="20px">
+                                </a>
+                            </nav>
+                            <nav class="navbar navbar-light navbar-expand-lg" style="background-color: black">
+                                <a href="https://www.facebook.com/" class="badge badge-light font-weight-normal">
+                                    <img src="https://static1.squarespace.com/static/4f5810d9e4b0ebbf0a1507a6/t/55a6e39be4b0e13bc07f93a1/1437000604121/ "
+                                        width="27px">
+                                </a>
+                            </nav>
+                            <nav class="navbar navbar-light navbar-expand-lg" style="background-color:black">
+                                <a href="https://www.youtube.com/" class="badge badge-light font-weight-normal">
+                                    <img src="https://image.flaticon.com/icons/svg/1384/1384060.svg" width="20px">
+                                </a>
+                            </nav>
+                        </div>
+                        <div class=" float-right text-white">© Tumo Center for Creative Technologies</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="modal fade" id="loginExampleModal" tabindex="-1" role="dialog" aria-labelledby="loginExampleModal"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginExampleModal">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="registerExampleModal" tabindex="-1" role="dialog" aria-labelledby="registerExampleModal"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="registerExampleModal">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="col-lg-6 mb-3">
+                                <label for="validationServer01">First name</label>
+                                <input type="text" class="form-control" id="validationServer01">
+                                <div class="valid-feedback">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <label for="validationServer02">Last name</label>
+                                <input type="text" class="form-control" id="validationServer02">
+                                <div class="valid-feedback">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-6 mb-3">
+                                <label for="validationServer03">City</label>
+                                <input type="text" class="form-control" id="validationServer03">
+                                <div class="invalid-feedback">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <label for="validationServer03">Telephone number</label>
+                                <input type="text" class="form-control" id="validationServer03">
+                                <div class="invalid-feedback">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <label for="validationServer03">E-mail Adress</label>
+                                <input type="text" class="form-control" id="validationServer03">
+                                <div class="invalid-feedback">
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6 mb-3">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
